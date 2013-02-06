@@ -68,7 +68,8 @@
 		.menu,
 		.ds,
 		.taajob,
-		.matn{
+		.matn,
+		.mom{
 			outline	: 1px solid #00FF00; 
 		}
 
@@ -146,6 +147,28 @@
 			margin-right: 34px;
 			margin-top	: 20px;
 		}
+
+		section.mom{
+			float		: left;
+			width		: 956px;
+			min-height	: 220px;
+			margin-top	: 20px;
+			margin-left	: 6px;
+		}	
+
+		.mhost1,
+		.mhost2,
+		.mhost3{
+			float		: left;
+			outline		: 1px dashed hsl(30,90%,40%);
+			min-height	: 210px;
+			margin-top	: 4px;
+		}
+
+		section.mhost1{
+			width		: 160px;
+			margin-left	: 4px;
+		}
 	</style>
 </head>
 <body>
@@ -172,6 +195,12 @@
 			<section class="guest"></section>
 		</div>
 		<div class="floor6">
+			<section class="mom">
+				<section class="mhost1"></section>
+				<section class="mhost2"></section>
+				<section class="mhost3"></section>
+				<section class="mhost"></section>
+			</section>
 		</div>
 		<footer></footer>
 	</div>
