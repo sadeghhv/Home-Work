@@ -22,7 +22,7 @@
 		}
 
 		header,
-		.menu,
+		.ms,
 		.slideshow,
 		.floor4,
 		.floor5,
@@ -38,7 +38,7 @@
 			min-height	: 100px;
 		}
 
-		div.menu{
+		div.ms{
 			min-height	: 60px;
 		}
 
@@ -63,9 +63,10 @@
 		}
 
 		.icon,
-		.contact{
+		.contact,
+		.search{
 			outline	: 1px solid #00FF00;
-			margin	:  2px; 
+			margin	: 4px; 
 		}
 
 		section.icon{
@@ -79,6 +80,12 @@
 			min-height	: 94px;
 			margin-left	: auto;
 		}
+
+		section.search{
+			float		: right;
+			width		: 250px;
+			min-height	: 50px;
+		}
 	</style>
 </head>
 <body>
@@ -87,7 +94,10 @@
 			<section class="icon"></section>
 			<section class="contact"></section>
 		</header>
-		<div class="menu"></div>
+		<div class="ms">
+			<section class="search"></section>
+			<section class="menu"></section>
+		</div>
 		<div class="slideshow"></div>
 		<div class="floor4"></div>
 		<div class="floor5"></div>
