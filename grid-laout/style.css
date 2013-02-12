@@ -6,7 +6,8 @@
 	min-height			: 900px;
 }
 
-header{
+header,
+footer{
 	outline	: 1px solid blue;
 }
 
