@@ -9,3 +9,8 @@
 header{
 	outline	: 1px solid blue;
 }
+
+.floor1{
+	outline		: 1px solid blue;
+	min-height	: 540px;
+}
