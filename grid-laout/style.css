@@ -16,7 +16,8 @@ footer{
 	min-height	: 540px;
 }
 
-nav{
+nav,
+h1{
 	outline		: 1px dashed red;
 }
 
