@@ -1,6 +1,11 @@
 .container{
-	background-image	: url('image/backguid.jpg');
+	background-image	: url('images/backguid.jpg');
 	background-position	: center top;
 	background-repeat	: no-repeat;
 	outline				: 2px dashed gray;
+	min-height			: 900px;
+}
+
+header{
+	outline	: 1px solid blue;
 }
