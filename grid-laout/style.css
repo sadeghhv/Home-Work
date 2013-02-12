@@ -15,3 +15,8 @@ footer{
 	outline		: 1px solid blue;
 	min-height	: 540px;
 }
+
+nav{
+	outline		: 1px dashed red;
+	margin-left: 5px;
+}
