@@ -18,5 +18,12 @@ footer{
 
 nav{
 	outline		: 1px dashed red;
-	margin-left: 5px;
+}
+
+nav.lmenu{
+	margin-left	: 5px;
+}
+
+nav.rmenu{
+	margin-right: 5px;
 }
