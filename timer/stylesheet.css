@@ -7,6 +7,7 @@ div.clock{
 	position	: relative;
 	width		: 600px;
 	min-height	: 600px;
+	margin		: 0 auto; 
 	background-image	: url('image/clockface.jpg') ;
 	background-repeat	: no-repeat;
 }
@@ -25,7 +26,7 @@ div.clock{
 	background-image	: url('image/hourhand.png');
 	z-index	: 2;
 	-webkit-animation-name:clock;
-	-webkit-animation-duration:43200s;
+	-webkit-animation-duration:360s;
 	-webkit-animation-timing-function:linear;
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-direction:normal;
@@ -36,7 +37,7 @@ div.clock{
 	background-image	: url('image/minhand.png');
 		z-index	: 2;
 		-webkit-animation-name:clock;
-	-webkit-animation-duration:3600s;
+	-webkit-animation-duration:60s;
 	-webkit-animation-timing-function:linear;
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-direction:normal;
@@ -47,7 +48,7 @@ div.clock{
 	background-image	: url('image/sechand.png');
 	z-index	: 3;
 	-webkit-animation-name:clock;
-	-webkit-animation-duration:60s;
+	-webkit-animation-duration:6s;
 	-webkit-animation-timing-function:linear;
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-direction:normal;
