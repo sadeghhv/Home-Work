@@ -18,7 +18,8 @@ footer{
 
 nav,
 h1,
-.pic{
+.pic,
+.matn{
 	outline		: 1px dashed red;
 }
 
@@ -33,4 +34,8 @@ nav.rmenu{
 section.pic{
 	min-height	: 450px;
 	margin-right: 0px;
+}
+
+section.matn{
+	min-height	: 450px;
 }
